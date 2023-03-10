@@ -1,0 +1,190 @@
+#header {
+    width: 100%;
+
+    // .row {
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    // }
+
+    .navbar {
+        background-color: $color-nav;
+        margin: 4vw 0;
+
+        .menu {
+            width: 100%;
+            list-style: none;
+            height: 5vw;
+            margin: 0;
+            list-style-type: none;
+            padding: 0;
+            // display: flex;
+            // justify-content: space-around;
+            align-items: center;
+            text-align: center;
+
+            a {
+                text-decoration: none;
+                color: $color-bg;
+                font-size: 1.8vw;
+                line-height: 100%;
+                padding: 1vw;
+
+                &:hover {
+                    background-color: $color-bg;
+                    color: $color-hover;
+                    transition: 300ms;
+                }
+            }
+
+            .dropdown-menu {
+                background-color: $color-nav;
+            }
+        }
+    }
+
+    div {
+        margin-top: 1vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        width: 85%;
+
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 3.5vw;
+    }
+
+    .compteur {
+        width: 85%;
+        height: 10vw;
+        border-radius: 12px;
+        background-color: $color-compteur;
+        color: $color-bg;
+        font-size: 3.5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // font-family: 'PT Serif Italic', Times, Serif;
+    }
+
+    .digit {
+        width: 3vw;
+        height: 5vw;
+        background-color: $color-bg;
+        color: $color-text;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // text-align: center;
+        // font-family: 'Inter', Arial, Helvetica, sans-serif;
+        margin-right: 1vw;
+
+        &:nth-child(2) {
+            margin-right: 2vw;
+        }
+    }
+}
+
+// #main {
+//     width: 100%;
+//     margin: 3vw;
+
+//     form {
+//         width: 100%;
+//         display: flex;
+//         align-items: center;
+//         flex-direction: column;
+//         // margin-bottom: 20px;
+
+//         h2 {
+//             font-size: 2vw;
+//         }
+
+//         fieldset {
+//             display: flex;
+//             flex-direction: column;
+//             position: relative;
+//             width: 85%;
+//             border: none;
+//             padding: 0;
+//             margin: 0 0 20px 0;
+
+//             input,
+//             select {
+//                 box-sizing: border-box;
+//                 border: 1px solid $color-text;
+//                 border-radius: 8px;
+//                 height: 4vw;
+//                 width: 100%;
+//                 padding-left: 1vw;
+//                 padding-right: 3vw;
+//             }
+
+//             .form_icon {
+//                 box-sizing: border-box;
+//                 position: absolute;
+//                 display: flex;
+//                 justify-content: center;
+//                 align-items: center;
+//                 height: 4vw;
+//                 right: 0;
+//                 bottom: 0;
+//                 padding-right: 1.5vw;
+//             }
+
+//         }
+//     }
+
+//     // h2 {
+//     //     text-align: center;
+//     // }
+
+//     // .btn {
+//     //     text-align: center;
+//     // }
+// }
+
+#footer {
+    background-color: $color-nav;
+    width: 100%;
+
+    ul {
+        margin-top: 0;
+        list-style: none;
+        color: $color-bg;
+
+        li {
+            height: 5vw;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+        }
+
+        a.txt {
+            // text-decoration: none;
+            color: $color-bg;
+            font-size: 1.8vw;
+            line-height: 100%;
+            padding: 1vw;
+
+            &:hover {
+                background-color: $color-bg;
+                color: $color-hover;
+                transition: 300ms;
+            }
+        }
+
+        img.social {
+            width: 3vw;
+            aspect-ratio: 1/1;
+            filter: invert(100%);
+        }
+    }
+}

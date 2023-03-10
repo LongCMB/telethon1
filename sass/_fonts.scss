@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/Inter-VariableFont.ttf);
+}
+
+@font-face {
+    font-family: "PT Serif";
+    src: url(../fonts/PTSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: "PT Serif Italic";
+    src: url(../fonts/PTSerif-Italic.ttf);
+}
+
+@font-face {
+    font-family: "PT Serif Bold";
+    src: url(../fonts/PTSerif-Bold.ttf);
+}
+
+@font-face {
+    font-family: "PT Serif Bold Italic";
+    src: url(../fonts/PTSerif-BoldItalic.ttf);
+}
+
+:root {
+    font-size: 1.5vw;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
